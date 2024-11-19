@@ -1,0 +1,178 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "email": "juan@empresa.com",
+      "rol": "admin",
+      "contraseña": "hashedpassword123"
+    },
+    {
+      "id": 2,
+      "nombre": "Ana Gómez",
+      "email": "ana@empresa.com",
+      "rol": "finanzas",
+      "contraseña": "hashedpassword456"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos Díaz",
+      "email": "carlos@empresa.com",
+      "rol": "recursos_humanos",
+      "contraseña": "hashedpassword789"
+    },
+    {
+      "id": 4,
+      "nombre": "Luis Rodríguez",
+      "email": "luis@empresa.com",
+      "rol": "inventario",
+      "contraseña": "hashedpassword012"
+    },
+    {
+      "id": 5,
+      "nombre": "Marta Fernández",
+      "email": "marta@empresa.com",
+      "rol": "proyectos",
+      "contraseña": "hashedpassword345"
+    }
+  ],
+  "paginas": {
+    "inventario": {
+      "totalProductos": 3,
+      "productosBajoStock": 45,
+      "valorTotalInventario": 80,
+      "productos": [
+        {
+          "id": 1,
+          "nombre": "Silla",
+          "categoria": "Gamer",
+          "stock": 5,
+          "precio": 20
+        },
+        {
+          "id": 2,
+          "nombre": "Teclado",
+          "categoria": "Oficina",
+          "stock": 30,
+          "precio": 10
+        },
+        {
+          "id": 3,
+          "nombre": "Mouse",
+          "categoria": "Led",
+          "stock": "10",
+          "precio": "50"
+        }
+      ]
+    },
+    "finanzas": {
+      "totalIngresos": 15000,
+      "totalGastos": 7500,
+      "balance": 7500,
+      "transacciones": [
+        {
+          "id": 1,
+          "descripcion": "ingreso",
+          "monto": 10000,
+          "fecha": "2024-11-10"
+        },
+        {
+          "id": 2,
+          "descripcion": "gasto",
+          "monto": 5000,
+          "fecha": "2024-11-11"
+        },
+        {
+          "id": 3,
+          "fecha": "2024-11-20",
+          "descripcion": "ingreso",
+          "monto": "5000"
+        },
+        {
+          "id": 4,
+          "fecha": "2024-11-28",
+          "descripcion": "gasto",
+          "monto": "2500"
+        }
+      ]
+    },
+    "recursos_humanos": {
+      "empleados": [
+        {
+          "id": 1,
+          "nombre": "Laura Martínez",
+          "posicion": "Gerente",
+          "departamento": 1,
+          "salario": 3500,
+          "fechaInicio": "2023-01-15"
+        },
+        {
+          "id": 2,
+          "nombre": "Luis Pérez",
+          "posicion": "Asistente",
+          "departamento": 2,
+          "salario": 2200,
+          "fechaInicio": "2024-03-01"
+        },
+        {
+          "id": 3,
+          "salario": 0,
+          "nombre": "sdfsd",
+          "posicion": "sdfsdfsdf",
+          "departamento": "sdfsdf",
+          "fechaInicio": "2024-11-20"
+        },
+        {
+          "id": 4,
+          "salario": 0,
+          "nombre": "aaa",
+          "posicion": "aaa",
+          "departamento": "aaa",
+          "fechaInicio": "2024-10-30"
+        },
+        {
+          "id": 5,
+          "salario": 0,
+          "nombre": "Gabriel",
+          "posicion": "Gerente",
+          "departamento": "finanzas",
+          "fechaInicio": "2024-11-20"
+        }
+      ],
+      "departamentos": [
+        { "id": 1, "nombre": "finanzas" },
+        { "id": 2, "nombre": "pedidos" },
+        { "id": 3, "nombre": "recursos_humanos" },
+        { "id": 4, "nombre": "inventario" }
+      ]
+    },
+    "proyectos": {
+      "totalProyectos": 3,
+      "proyectosEnProgreso": 1,
+      "proyectosCompletados": 2,
+      "proyectos": [
+        {
+          "id": 1,
+          "nombre": "Proyecto A",
+          "cliente": "Mark",
+          "estado": "En progreso",
+          "fechaLimite": "2024-12-31"
+        },
+        {
+          "id": 2,
+          "nombre": "Proyecto B",
+          "cliente": "John",
+          "estado": "Completado",
+          "fechaLimite": "2024-10-15"
+        },
+        {
+          "id": 3,
+          "nombre": "Proyecto C",
+          "cliente": "Jeff bezos",
+          "fechaLimite": "2024-11-15",
+          "estado": "Completado"
+        }
+      ]
+    }
+  }
+}
